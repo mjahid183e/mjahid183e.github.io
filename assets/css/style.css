@@ -449,3 +449,72 @@ h1, h2, h3 { text-wrap: balance; }
 @media (max-width: 480px) {
   .projects-index .project-grid-list .project-card { min-height: 525px; }
 }
+
+.status-banner {
+    align-items: center;
+}
+
+.status-banner-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.status-banner-icon svg {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.status-banner p {
+    margin: 0;
+}
+
+.data-workflow {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 2rem minmax(0, 1fr) 2rem minmax(0, 1fr) 2rem minmax(0, 1fr);
+    align-items: center;
+    column-gap: 0;
+}
+
+.data-workflow > div {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.data-workflow > i {
+    width: 2rem;
+    display: grid;
+    place-items: center;
+    justify-self: center;
+    padding: 0;
+    background: transparent;
+}
+
+.data-workflow > i:hover {
+    background: transparent;
+}
+
+@media (max-width: 850px) {
+    .data-workflow {
+        grid-template-columns: 1fr;
+        row-gap: 0.65rem;
+    }
+
+    .data-workflow > i {
+        display: none;
+    }
+}
+
+.case-details-section {
+    padding-bottom: 2.5rem;
+}

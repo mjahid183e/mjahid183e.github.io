@@ -1,10 +1,212 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f8f5"><meta name="description" content="An in-progress portfolio project plan for an Excel and CSV data quality workflow."><meta property="og:title" content="Excel & CSV Data Quality Workflow | Md. Jahidul Islam"><meta property="og:description" content="A planned, reproducible data quality demonstration."><title>Excel & CSV Data Quality Workflow | Md. Jahidul Islam</title><link rel="icon" type="image/svg+xml" href="../favicon.svg"><link rel="stylesheet" href="../assets/css/style.css"><script src="../assets/js/main.js" defer></script></head>
-<body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="container nav-wrap"><a class="brand" href="../index.html" aria-label="Md. Jahidul Islam home"><span class="brand-mark" aria-hidden="true">JI</span><span class="brand-name">Md. Jahidul Islam<span class="brand-dot">.</span><small>BUSINESS ANALYST</small></span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle><span class="sr-only">Toggle navigation</span><span class="menu-lines" aria-hidden="true"></span></button><nav class="site-nav" id="primary-nav" aria-label="Primary navigation" data-menu><a href="../index.html#about">About</a><a href="../index.html#skills">Skills</a><a href="index.html" aria-current="page">Projects</a><a href="../index.html#services">Services</a><a href="../index.html#education">Education</a><a class="nav-contact" href="../index.html#contact">Contact <span aria-hidden="true">↗</span></a></nav></div></header>
-<main id="main"><section class="case-hero section-pad"><div class="container case-hero-inner"><a class="back-link" href="index.html">← All projects</a><div class="project-meta"><span class="project-type">DATA PREPARATION</span><span class="project-status status-progress">In progress</span></div><h1>Excel & CSV <span class="text-accent">Data Quality Workflow</span></h1><p class="page-lede">A planned demonstration of a careful, repeatable process for profiling, cleaning and validating a tabular dataset before analysis.</p><div class="tag-list"><span>Excel</span><span>CSV</span><span>Python</span><span>Data quality</span></div><div class="data-workflow" aria-label="Planned workflow stages"><div><span>01</span><strong>Profile</strong><small>Understand the columns</small></div><i aria-hidden="true">→</i><div><span>02</span><strong>Clean</strong><small>Handle documented issues</small></div><i aria-hidden="true">→</i><div><span>03</span><strong>Validate</strong><small>Check the final output</small></div></div></div></section>
-<section class="section-pad"><div class="container case-layout"><aside class="case-sidebar"><div class="sidebar-block"><span class="sidebar-label">PROJECT SNAPSHOT</span><dl class="snapshot-list"><div><dt>Area</dt><dd>Data quality & preparation</dd></div><div><dt>Status</dt><dd>Planned / in progress</dd></div><div><dt>Dataset</dt><dd>Not selected yet</dd></div><div><dt>Deliverable</dt><dd>Reproducible cleaning workflow and quality report</dd></div></dl></div><div class="sidebar-block"><span class="sidebar-label">PRINCIPLES</span><div class="tag-list"><span>Reproducible</span><span>Traceable</span><span>Transparent</span></div></div></aside>
-<article class="case-content"><div class="status-banner"><span class="status-banner-icon" aria-hidden="true">↻</span><p><strong>This project is in progress.</strong> The page describes the intended scope and acceptance criteria. It does not claim that a dataset has already been cleaned or that any results have been measured.</p></div><section class="case-section"><p class="eyebrow">01 / BUSINESS PROBLEM</p><h2>Make the dataset safe to analyze</h2><p>Spreadsheet files can contain missing values, duplicate rows, inconsistent categories, incorrect data types and date or number formats that vary across records. These issues can distort downstream summaries when they are not identified and handled transparently.</p><p>The demonstration will use a public, licensed or synthetic dataset that can be shared safely. The source and any restrictions will be documented before analysis.</p></section>
-<section class="case-section"><p class="eyebrow">02 / PLANNED METHOD</p><h2>A documented sequence of checks</h2><ol class="method-list"><li><span>01</span><div><strong>Profile the raw file</strong><p>Record dimensions, column names, data types, missingness, duplicate candidates and basic value distributions.</p></div></li><li><span>02</span><div><strong>Define cleaning rules</strong><p>Specify how each issue will be handled before changing data; keep original values where appropriate and avoid silently discarding records.</p></div></li><li><span>03</span><div><strong>Apply repeatable transformations</strong><p>Use Excel steps, Python code or both, with clear comments and an auditable log of material changes.</p></div></li><li><span>04</span><div><strong>Validate the output</strong><p>Re-run checks, compare row counts and summarize issues resolved, retained and requiring further review.</p></div></li></ol></section>
-<section class="case-section"><p class="eyebrow">03 / DELIVERABLES</p><h2>What the finished project will include</h2><div class="deliverable-list"><div><span class="deliverable-check">01</span><p><strong>Cleaned dataset</strong><br>A shareable output with no private or restricted records.</p></div><div><span class="deliverable-check">02</span><p><strong>Quality report</strong><br>Before/after counts and a concise explanation of cleaning decisions.</p></div><div><span class="deliverable-check">03</span><p><strong>Reproducible workflow</strong><br>Code or documented steps another person can review.</p></div><div><span class="deliverable-check">04</span><p><strong>Analysis-ready handover</strong><br>Known limitations, unresolved issues and suggested next steps.</p></div></div></section>
-<section class="case-section"><p class="eyebrow">04 / SUCCESS CRITERIA</p><h2>Evidence to publish after completion</h2><p>The project will be ready to present when the source data and license are documented, the cleaning process can be rerun, validation checks pass, and the final write-up includes genuine before/after figures. Any record removal or value imputation will be explained rather than presented as automatic improvement.</p></section><div class="case-end-links"><a class="button button-primary" href="index.html">Back to projects</a><a class="button button-secondary" href="../index.html#contact">Contact <span aria-hidden="true">↗</span></a></div></article></div></section></main>
-<footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="../index.html">Md. Jahidul Islam<span>.</span></a><p>Built with care, HTML, CSS and JavaScript.</p><div class="footer-right"><a href="index.html">Projects</a><a href="../index.html#contact">Contact</a><span>© <span data-year>2026</span></span></div></div></footer></body></html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8f5">
+    <meta name="description"
+        content="A Python and pandas portfolio demo covering data profiling, cleaning, validation, and sales analysis using synthetic e-commerce data.">
+    <meta property="og:title" content="E-commerce Data Cleaning and Sales Analysis | Md. Jahidul Islam">
+    <meta property="og:description"
+        content="A Python and pandas portfolio demo covering data profiling, cleaning, validation, and sales analysis using synthetic e-commerce data.">
+    <meta property="og:url" content="https://mjahid183e.github.io/projects/excel-csv-data-cleaning.html">
+    <link rel="canonical" href="https://mjahid183e.github.io/projects/excel-csv-data-cleaning.html">
+    <title>E-commerce Data Cleaning and Sales Analysis | Md. Jahidul Islam</title>
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/main.js" defer></script>
+</head>
+
+<body><a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="container nav-wrap"><a class="brand" href="../index.html" aria-label="Md. Jahidul Islam home"><span
+                    class="brand-mark" aria-hidden="true">JI</span><span class="brand-name">Md. Jahidul Islam<span
+                        class="brand-dot">.</span><small>BUSINESS ANALYST</small></span></a><button class="nav-toggle"
+                type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-toggle><span
+                    class="sr-only">Toggle navigation</span><span class="menu-lines" aria-hidden="true"></span></button>
+            <nav class="site-nav" id="primary-nav" aria-label="Primary navigation" data-menu><a
+                    href="../index.html#about">About</a><a href="../index.html#skills">Skills</a><a href="index.html"
+                    aria-current="page">Projects</a><a href="../index.html#services">Services</a><a
+                    href="../index.html#education">Education</a><a class="nav-contact"
+                    href="../index.html#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="case-hero section-pad">
+            <div class="container case-hero-inner"><a class="back-link" href="index.html">← All projects</a>
+                <div class="project-meta"><span class="project-type">DATA PREPARATION</span><span
+                        class="project-status">Completed demo</span></div>
+                <h1>E-commerce Data Cleaning and Sales Analysis</h1>
+                <p class="page-lede">A completed Python and pandas portfolio demo using 1,000 fully synthetic e-commerce
+                    order records.
+                    It documents data profiling, cleaning, validation, and discounted sales analysis while preserving
+                    the original raw CSV.</p>
+                <div class="tag-list"><span>Excel</span><span>CSV</span><span>Python</span><span>pandas</span><span>Data
+                        quality</span><span>Sales analysis</span>
+                </div>
+                <div class="data-workflow" aria-label="Data-cleaning and sales-analysis workflow stages">
+                    <div><span>01</span><strong>Profile</strong><small>Understand the columns</small></div><i
+                        aria-hidden="true">→</i>
+                    <div><span>02</span><strong>Clean</strong><small>Apply documented rules</small></div><i
+                        aria-hidden="true">→</i>
+                    <div><span>03</span><strong>Validate</strong><small>Check the cleaned data</small></div><i
+                        aria-hidden="true">→</i>
+                    <div><span>04</span><strong>Analyze</strong><small>Summarize sales patterns</small></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-pad case-details-section">
+            <div class="container case-layout">
+                <aside class="case-sidebar">
+                    <div class="sidebar-block"><span class="sidebar-label">PROJECT SNAPSHOT</span>
+                        <dl class="snapshot-list">
+                            <div>
+                                <dt>Area</dt>
+                                <dd>Data quality & preparation</dd>
+                            </div>
+                            <div>
+                                <dt>Status</dt>
+                                <dd>Completed synthetic demo</dd>
+                            </div>
+                            <div>
+                                <dt>Dataset</dt>
+                                <dd>Fully synthetic e-commerce orders: 1,000 raw rows, 14 fields</dd>
+                            </div>
+                            <div>
+                                <dt>Deliverable</dt>
+                                <dd>Cleaned dataset, change log, quality report, three notebooks, and charts</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="sidebar-block"><span class="sidebar-label">PRINCIPLES</span>
+                        <div class="tag-list"><span>Reproducible</span><span>Traceable</span><span>Transparent</span>
+                        </div>
+                    </div>
+                </aside>
+                <article class="case-content">
+                    <div class="status-banner">
+                        <span class="status-banner-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" focusable="false">
+                                <path d="M4.5 12.5 C6.2 14.2 8 16 9.6 17.4 C12.4 13.8 16.3 9.3 20 6.4"></path>
+                            </svg>
+                        </span>
+                        <p><strong>Synthetic-data demo:</strong> The records and results are illustrative; this is not
+                            client work or real business performance.</p>
+                    </div>
+                    <section class="case-section">
+                        <p class="eyebrow">01 / PROJECT CONTEXT</p>
+                        <h2>Preparing data for reliable analysis</h2>
+                        <p>For this demo, I worked with 1,000 synthetic e-commerce order records.
+                            The raw file contains missing values, exact duplicates, possible duplicate orders,
+                            inconsistent date and number formats, and variations in text.
+                            I kept the original CSV unchanged, cleaned a separate copy, and recorded the changes.</p>
+                        <p>All records were created for this demonstration; no real customer or transaction data is
+                            included.</p>
+                    </section>
+                    <section class="case-section">
+                        <p class="eyebrow">02 / CLEANING WORKFLOW</p>
+                        <h2>How I cleaned and validated the data</h2>
+                        <ol class="method-list">
+                            <li><span>01</span>
+                                <div><strong>Profile the raw data</strong>
+                                    <p>I started with 1,000 rows and 14 columns, checking missing values, duplicates,
+                                        possible duplicate orders, inconsistent formats, value consistency, and product
+                                        details.</p>
+                                </div>
+                            </li>
+                            <li><span>02</span>
+                                <div><strong>Set the rules before cleaning</strong>
+                                    <p>I kept the raw CSV unchanged, removed exact duplicates only, and flagged possible
+                                        duplicates while retaining them.
+                                        I standardized values only when a verified mapping was available, filled prices
+                                        only when the synthetic catalog confirmed them, and left other unsupported
+                                        values blank.</p>
+                                </div>
+                            </li>
+                            <li><span>03</span>
+                                <div><strong>Apply the rules</strong>
+                                    <p>I removed 25 extra exact duplicates, flagged 48 possible duplicates, standardized
+                                        labels and formats, and filled 8 missing prices using the catalog.</p>
+                                </div>
+                            </li>
+                            <li><span>04</span>
+                                <div><strong>Validate the result</strong>
+                                    <p>The cleaned copy has 975 rows and 15 columns. It has no remaining exact
+                                        duplicates or inconsistent product details;
+                                        50 unsupported missing values across six fields remain documented.</p>
+                                </div>
+                            </li>
+                        </ol>
+                    </section>
+                    <section class="case-section">
+                        <p class="eyebrow">03 / PROJECT OUTPUTS</p>
+                        <h2>What this project includes</h2>
+                        <p>All project files are available in the
+                            <a class="text-link" href="https://github.com/mjahid183e/ecommerce-data-cleaning-demo"
+                                target="_blank" rel="noopener noreferrer">GitHub repository ↗</a>.
+                        </p>
+                        <div class="deliverable-list">
+                            <div><span class="deliverable-check">01</span>
+                                <p><strong>Cleaned dataset</strong><br>A 975-row working copy with 15 columns. The
+                                    original 1,000-row synthetic CSV remains unchanged.</p>
+                            </div>
+                            <div><span class="deliverable-check">02</span>
+                                <p><strong>Cleaning change log</strong><br>A 20-entry record of the changes, affected
+                                    fields, reasons, and rows involved.</p>
+                            </div>
+                            <div><span class="deliverable-check">03</span>
+                                <p><strong>Notebooks and profiling script</strong><br>Files for raw-data profiling, data
+                                    cleaning, and sales analysis, plus a Python profiling script.</p>
+                            </div>
+                            <div><span class="deliverable-check">04</span>
+                                <p><strong>Quality report and charts</strong><br>A data-quality report and five charts
+                                    covering monthly sales, products, categories, regions, and units sold.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="case-section">
+                        <p class="eyebrow">04 / FINDINGS AND LIMITATIONS</p>
+                        <h2>What the analysis shows and what to keep in mind</h2>
+
+                        <h3>Key findings</h3>
+                        <ul>
+                            <li>Net sales totaled <strong>SAR 105,895.90</strong> across 539 calculable order lines.
+                            </li>
+                            <li>March had the highest monthly sales at <strong>SAR 12,473.60</strong>; July had the
+                                lowest at <strong>SAR 4,843.00</strong>.</li>
+                            <li>ArcBeat Earbuds led product sales at <strong>SAR 17,157.15</strong>. Luma Desk Lamp had
+                                the most known units sold: <strong>138</strong>.</li>
+                            <li>Home &amp; Kitchen led category sales at <strong>SAR 47,767.90</strong>. Northern was
+                                the top assigned region at <strong>SAR 26,217.70</strong>.</li>
+                        </ul>
+
+                        <h3>Limitations</h3>
+                        <ul>
+                            <li>The dataset is synthetic, so these results demonstrate the workflow and do not represent
+                                real business performance. The analysis includes paid and delivered lines and excludes
+                                48 possible-duplicate candidates.</li>
+                            <li>Nine eligible lines could not be included in sales totals because quantity or discount
+                                was missing. Five lines with missing dates were omitted from the monthly chart.</li>
+                            <li>Six lines with missing regions are grouped as “Unassigned.” Net sales are not profit;
+                                taxes, shipping, and costs are not included. The data covers 2025 only.</li>
+                        </ul>
+                    </section>
+                    <div class="case-end-links"><a class="button button-primary" href="index.html">Back to
+                            projects</a><a class="button button-secondary" href="../index.html#contact">Contact <span
+                                aria-hidden="true">↗</span></a></div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-inner"><a class="footer-brand" href="../index.html">Md. Jahidul
+                Islam<span>.</span></a>
+            <p>Built with care, HTML, CSS and JavaScript.</p>
+            <div class="footer-right"><a href="index.html">Projects</a><a
+                    href="../index.html#contact">Contact</a><span>© <span data-year>2026</span></span></div>
+        </div>
+    </footer>
+</body>
+
+</html>
